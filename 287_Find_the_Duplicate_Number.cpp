@@ -1,7 +1,7 @@
 // Question : https://leetcode.com/problems/find-the-duplicate-number/description/
 
 // Approches
-// 1.  
+// 1.  sorting approch 
 class Solution
 {
 public:
