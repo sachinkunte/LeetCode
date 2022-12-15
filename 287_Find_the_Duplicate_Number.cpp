@@ -1,7 +1,10 @@
 // Question : https://leetcode.com/problems/find-the-duplicate-number/description/
 
 // Approches
-// 1. sorting approch 
+
+// 1. sorting approch
+// space : O(nlogn)
+// time :  O(logn)
 class Solution
 {
 public:
@@ -9,7 +12,7 @@ public:
     {
         int ans = 0;
 
-        // sort the array. 
+        // sort the array.
         sort(nums.begin(), nums.end());
 
         // iterate over the, after sorting the duplicate elements will be at adjecent position.
